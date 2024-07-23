@@ -1,0 +1,110 @@
+.mt-4{
+  font-family: "Noto Kufi Arabic", sans-serif;
+  text-align: Right;
+
+
+
+}
+
+.placeHolderMT4{
+  text-align: center;
+  
+}
+
+.form-control:focus {
+  border-color: #3ba597;
+  box-shadow: 0 0 0 0.2rem rgba(46, 197, 127, 0.25);
+ 
+  
+}
+
+h1 { 
+    /* font-family: 'Pacifico', cursive;
+    color: #DB3EB1;
+    text-decoration: underline;
+    text-decoration-color: #41B6E6;
+    font-style: italic; */
+
+
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: #d42c3a;
+    text-decoration: underline;
+    text-decoration-color: #3ba597;
+    font-style: italic;
+  }
+  
+  button.miami {
+    background-color:#3ba597 !important;
+    border-color:#52a7c9 !important;
+    margin-top: 20px;
+    
+    font-family: "Noto Kufi Arabic", sans-serif;
+  }
+  
+  .badge-danger {
+    color: #f85858;
+    font-size: 20px;
+    padding: 0px;
+  }
+  
+  .wrapper {
+    height:100vh;
+    display: grid;
+  }
+  .center-wrapper {
+    align-self: center;
+    justify-self: center;
+  }
+  
+  .players_wrapper {
+    height: 200px;
+    overflow-y: scroll;
+  }
+  
+  .Toastify{
+    position:fixed;
+  }
+  
+  .badge{
+    cursor: pointer;
+  }
+  
+  .action_button {
+    position: fixed;
+    bottom: 20px;
+    right: 78cap;
+    
+    background: #d42c3a;
+    color: white;
+    padding: 6px 42px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .action_button.btn1 {
+    right: 700px;
+  }
+  
+  .action_button.btn_2 {
+    right: 1050px;
+  }
+  
+  
+  .result_wrapper {
+    text-align: center;
+    margin-top: 30px;
+    
+  }
+  
+  .result_wrapper h3 {
+    color: #3ba597;
+    margin-bottom: 20px;
+  }
+  .result_wrapper div {
+    font-size: 40px;
+    color: #585858;
+  }
